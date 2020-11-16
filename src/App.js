@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import {Home} from './Components/Home'
-import {Contact} from './Components/Contact'
+import {Resume} from './Components/Resume'
 import {About} from './Components/About'
 import {Portfolio} from './Components/Portfolio'
 import {NoMatch} from './Components/NoMatch'
@@ -20,7 +20,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/About' component={About}/>
-          <Route exact path='/Contact' component={Contact}/>
+          <Route exact path='/Resume' component={Resume}/>
           <Route exact path='/Portfolio' component={Portfolio}/>
           <Route component={NoMatch}/>
         </Switch>

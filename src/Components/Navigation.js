@@ -7,10 +7,9 @@ const Styles = styled.div`
   .navbar {
     font-family: 'Montserrat', sans-serif;
     background: white;
-    /* margin-top: 30px; */
     height: 80px;
     font-size: .9rem;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 999;
   }
@@ -26,11 +25,13 @@ const Styles = styled.div`
     color: #3a7ef2;
     }
     @media screen and (max-width: 960px) {
-    width: 0%;
+    position: fixed;
+    display: inline-block;
+    top: 0; 
     &:hover {
         border: none;
         background-color: none;
-    }
+      } 
     }
   }
 `;
@@ -63,7 +64,6 @@ export const Navigation = () => (
       <Navbar.Brand href="/">
       </Navbar.Brand>
       <LogoStyle className="App-logo" src={logo} alt="logo"></LogoStyle>
-      {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link href="/">Home</Nav.Link>
@@ -72,7 +72,7 @@ export const Navigation = () => (
             <Nav.Link href="/About">About</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="/Resume">Resume</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/Portfolio">Portfolio</Nav.Link>

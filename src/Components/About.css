@@ -1,0 +1,28 @@
+.about-blurb {
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.card-image {
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.links {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    display: block;
+    justify-content: center;
+}
