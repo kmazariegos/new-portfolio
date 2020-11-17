@@ -1,6 +1,6 @@
 
 .App-logo {
-  height: 17vmin;
+  height: 15vmin;
   pointer-events: none;
   margin-top: 10px;
   /* float: left; */
@@ -36,7 +36,7 @@
 .nav{
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
   float: right;
 }
 

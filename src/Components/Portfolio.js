@@ -5,8 +5,8 @@ import image3 from './Images/starwars.png'
 
 
 
+
 export const Portfolio = () => (
-<>
 <Carousel>
   <Carousel.Item interval={6000}>
     <a href ='https://react-starwarsly-app.netlify.app/'>
@@ -35,5 +35,4 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-</>
 )

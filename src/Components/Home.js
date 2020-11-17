@@ -69,7 +69,7 @@ const Icons = styled.h2`
   font-family: 'Montserrat', sans-serif;
   /* max-width: 440px; */
   margin-bottom: 35px;
-  font-size: 30px;
+  font-size: 45px;
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `;
