@@ -4,13 +4,14 @@ import {Portfolio} from './Portfolio'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 import image from './Images/image.png'
+import './Home.css'
 
 const ContainerDiv = styled.div`
   background-image: url(${image});
   background-size: cover;
+  background-color: #e6f0ea;
   display: flex;
   justify-content: center;
-  background-color: white;
 `
 
 const InfoRow = styled.div`
@@ -76,7 +77,7 @@ const Icons = styled.h2`
 
 
 
-export const Home = (props) => (
+export const Home = (props) => (  
     <ContainerDiv>
         <InfoRow>
             <InfoColumn>
@@ -104,7 +105,7 @@ export const Home = (props) => (
                     <br></br> 
                     <br></br>
                     <br></br>
-                    <Portfolio></Portfolio>
+                    <Portfolio className="portfolio"></Portfolio>
                     <br></br>
                     <br></br>
                     <Subtitle>Tech Skills</Subtitle>

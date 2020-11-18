@@ -2,7 +2,7 @@
 .App-logo {
   height: 15vmin;
   pointer-events: none;
-  margin-top: 10px;
+  margin-top: 10px; 
   /* float: left; */
 }
 
@@ -22,15 +22,14 @@
   }
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .header {
+  background-color: #dfcaab;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 } */
 
 .nav{
@@ -43,12 +42,15 @@
 .nav-link {
   color: black;
   margin-top: 25px;
-  font-weight: 1px;
-  font-size: .9rem;
+  /* font-weight: .5px;
+  font-size: .9rem; */
   /* height: 50px; */
   /* border-bottom: solid transparent; */
   /* display: inline-block; */
   /* margin-left: 100px; */
   float: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
+
 

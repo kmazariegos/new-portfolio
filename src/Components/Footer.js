@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 import styled from 'styled-components';
-
+import './Footer.css'
 
 const Icons = styled.h2`
   text-align: center;

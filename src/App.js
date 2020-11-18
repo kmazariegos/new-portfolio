@@ -14,9 +14,10 @@ import logo from './Components/Images/logo.png'
 
 function App() {
   return (
-    <React.Fragment className='cover'>
-      <Layout>
+    <React.Fragment>
+      <Layout className='cover'>
       <Router>
+        <header className='header'>
         <Link to='/'><img src={logo} alt='Karla' className='App-logo'/></Link>
         <nav className="nav">
         <Link to='/' className='nav-link'>Home</Link>
@@ -24,6 +25,7 @@ function App() {
         <Link to='/Resume' className='nav-link'>Resume</Link>
         <Link to='/Portfolio' className='nav-link'>Portfolio</Link>
         </nav>
+        </header>
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/About' component={About}/>

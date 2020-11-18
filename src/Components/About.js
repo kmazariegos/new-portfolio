@@ -38,7 +38,7 @@ export const About = () => (
       <Card.Title  className="Main-title">About</Card.Title>
       <Card.Text  className="about-blurb">
       Highly entrepreneurial problem-solver and software enthusiast motivated by bringing concepts to full fruition. Proven ability to successfully analyze an 
-      organization's business requirements, identify potential opportunities, a nd develop innovative solutions to enhance product 
+      organization's business requirements, identify potential opportunities, and develop innovative solutions to enhance product 
       revenue and user experience. Valuable in a variety of industries and fast-paced environments.
       </Card.Text>
     </Card.Body>
