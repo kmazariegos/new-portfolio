@@ -18,8 +18,7 @@ export const Portfolio = () => (
     />
     </a>
     <Carousel.Caption>
-      <h3 className='biz'></h3>
-      <p className='biz'>MERN Stack Application</p>
+      <p>MERN Stack Application</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={6000}>
