@@ -10,7 +10,7 @@ import './Portfolio.css'
 export const Portfolio = () => (
 <Carousel>
   <Carousel.Item interval={6000}>
-    <a href ='simplybiz.com'>
+    <a href ='https://github.com/kmazariegos/simply-biz'>
     <img
       className="d-block w-100"
       src={image2}
