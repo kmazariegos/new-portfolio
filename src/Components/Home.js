@@ -99,7 +99,7 @@ export const Home = (props) => (
                     <br></br>
                     <Subtitle>About</Subtitle>
                     <TopLine>Highly entrepreneurial problem-solver and software enthusiast motivated by bringing concepts to full fruition. 
-                    Proven ability to successfully analyze an organization's business requirements, identify potential opportunities, a nd develop innovative solutions to enhance product revenue and user experience. 
+                    Proven ability to successfully analyze an organization's business requirements, identify potential opportunities, and develop innovative solutions to enhance product revenue and user experience. 
                     Valuable in a variety of industries and fast-paced environments.</TopLine>
                     <TopLine>Grace Hopper 2020 Software Engineering Scholar – Virtual (2020)</TopLine>
                     <br></br> 

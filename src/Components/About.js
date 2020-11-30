@@ -28,7 +28,7 @@ const CardTemplate = styled.div`
   border-radius: 25px;
   box-shadow: 5px 5px 15px #89a0b0;
   width: 60rem;
-  height: 35rem;
+  height: 50rem;
 `
 
 export const About = () => ( 
@@ -37,9 +37,13 @@ export const About = () => (
     <Card.Body className="card-body">
       <Card.Title  className="Main-title">About</Card.Title>
       <Card.Text  className="about-blurb">
-      Highly entrepreneurial problem-solver and software enthusiast motivated by bringing concepts to full fruition. Proven ability to successfully analyze an 
-      organization's business requirements, identify potential opportunities, and develop innovative solutions to enhance product 
-      revenue and user experience. Valuable in a variety of industries and fast-paced environments.
+      My name is Karla Mazariegos, and I am an aspiring full-stack developer with an entrepreneurial spirit. Most of my projects are built using Javascript, React, MongoDB, and Express, but I can also work with many more stacks. 
+      </Card.Text>
+      <Card.Text className="about-blurb">
+      Before pivoting into tech, I ran an e-commerce business (Autoimmuni-Tea), where I developed many important skills such as brand development, business management, and strategic planning. Building a business from scratch taught me how to think quickly on my feet and brainstorm more efficient processes.
+      </Card.Text>
+      <Card.Text className="about-blurb">
+      Overall, I am a positive hard working person looking for opportunities to be of great support and resource to my team. 
       </Card.Text>
     </Card.Body>
     <Card.Body className="card-image">
