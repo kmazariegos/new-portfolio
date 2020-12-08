@@ -49,7 +49,7 @@ export const Resume = () => (
       </Card.Text>
       <Card.Title className="Second-title">Skills & Abilities</Card.Title>
       <Card.Text> 
-      JavaScript | Python | React | Redux | HTML | CSS | NodeJS | Express | SQL | PostgreSQL | MongoDB | Flask | Restful API   Development | Mocha | Chai | GitHub | Jira | Salesforce | Postman | Tableau | Excel | Entrepreneurship | E-commerce | Brand Development | Operations Management | Strategic Planning | Supply Chain Management | Amazon Seller Central | Shopify
+      JavaScript | React | Redux | HTML | CSS | NodeJS | Express | SQL | PostgreSQL | MongoDB | Flask | Restful API   Development | Mocha | Chai | GitHub | Jira | Salesforce | Postman | Tableau | Excel | Entrepreneurship | E-commerce | Brand Development | Operations Management | Strategic Planning | Supply Chain Management | Amazon Seller Central | Shopify
       </Card.Text>
       <Card.Title className="Second-title">Experience</Card.Title>
       <Card.Text>

@@ -110,7 +110,7 @@ export const Home = (props) => (
                     <br></br>
                     <Subtitle>Tech Skills</Subtitle>
                     <TopLine>
-                    JavaScript | Python | React | Redux | HTML | CSS | NodeJS | Express | MySQL | PostgreSQL | MongoDB | Flask | Restful API  Development | Mocha | Chai | GitHub | Jira | Postman 
+                    JavaScript | React | Redux | HTML | CSS | NodeJS | Express | MySQL | PostgreSQL | MongoDB | Flask | Restful API  Development | Mocha | Chai | GitHub | Jira | Postman 
                     </TopLine>
                     <br></br>
                     <Subtitle>Business Skills</Subtitle>
