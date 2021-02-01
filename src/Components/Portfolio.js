@@ -11,7 +11,7 @@ import './Portfolio.css'
 
 export const Portfolio = () => (
 <Carousel>
-<Carousel.Item interval={6000}>
+<Carousel.Item interval={3000}>
     <a href ='https://pensive-edison-7e6169.netlify.app/'>
     <img
       className="d-block w-100"
@@ -23,7 +23,7 @@ export const Portfolio = () => (
       <p>WedDev Flashcards App</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={6000}>
+  <Carousel.Item interval={3000}>
     <a href ='https://github.com/kmazariegos/simply-biz'>
     <img
       className="d-block w-100"
@@ -35,7 +35,7 @@ export const Portfolio = () => (
       <p>MERN Stack Application</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={6000}>
+  <Carousel.Item interval={3000}>
     <a href ='https://react-starwarsly-app.netlify.app/'>
     <img
       className="d-block w-100"
@@ -48,7 +48,7 @@ export const Portfolio = () => (
       <p>React Application</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={6000}>
+  <Carousel.Item interval={3000}>
     <a href ='https://infallible-wilson-468d6d.netlify.app/'>
     <img
       className="d-block w-100"
