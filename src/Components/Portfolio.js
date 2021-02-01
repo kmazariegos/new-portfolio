@@ -3,6 +3,7 @@ import {Carousel} from 'react-bootstrap'
 import image2 from './Images/bizapp.png'
 import image3 from './Images/starwars.png'
 import image4 from './Images/imagess.png'
+import image5 from './Images/flashcards.png'
 import './Portfolio.css'
 
 
@@ -10,6 +11,18 @@ import './Portfolio.css'
 
 export const Portfolio = () => (
 <Carousel>
+<Carousel.Item interval={6000}>
+    <a href ='https://pensive-edison-7e6169.netlify.app/'>
+    <img
+      className="d-block w-100"
+      src={image5}
+      alt="THIS IS MY PROJECT"
+    />
+    </a>
+    <Carousel.Caption>
+      <p>WedDev Flashcards App</p>
+    </Carousel.Caption>
+  </Carousel.Item>
   <Carousel.Item interval={6000}>
     <a href ='https://github.com/kmazariegos/simply-biz'>
     <img
