@@ -50,8 +50,8 @@ export const About = () => (
       </Card.Text>
     </Card.Body>
     <Card.Body className="card-image">
-      <a href="https://www.springboard.com/courses/software-engineering-career-track/" target="_blank"><Image alt="springboard" src={springboard} rounded  className='image'/></a>
-      <a href="https://autoimmunitea.com/" target="_blank"><Image alt="autoimmunitea" src={auto} rounded className='image'/></a>
+      <a href="https://www.springboard.com/courses/software-engineering-career-track/" target="blank"><Image alt="springboard" src={springboard} rounded  className='image'/></a>
+      <a href="https://autoimmunitea.com/" target="blank"><Image alt="autoimmunitea" src={auto} rounded className='image'/></a>
     </Card.Body>  
   </CardTemplate>
   </ContainerDiv>

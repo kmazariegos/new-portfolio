@@ -28,13 +28,13 @@ export function Footer() {
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
                     <Icons>
-                    <a href="https://github.com/kmazariegos" target="_blank">
+                    <a href="https://github.com/kmazariegos" target="blank">
                     <FaGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="blank">
                     <FaLinkedin/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="blank">
                     <FiMail/>
                     </a>
                     </Icons>

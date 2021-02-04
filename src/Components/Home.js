@@ -89,13 +89,13 @@ function Home() {
                     <Heading>KARLA MAZARIEGOS</Heading>
                     <Subtitle>Fullstack Web Developer</Subtitle>
                     <Icons>
-                    <a href="https://github.com/kmazariegos" target="_blank">
+                    <a href="https://github.com/kmazariegos" target="blank">
                     <FaGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="blank">
                     <FaLinkedin/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="blank">
                     <FiMail/>
                     </a>
                     </Icons>
