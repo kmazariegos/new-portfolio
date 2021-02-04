@@ -26,7 +26,7 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://github.com/kmazariegos/simply-biz' target="_blank">
+    <a href ='https://suspicious-easley-15f710.netlify.app/' target="_blank">
     <img
       className="d-block w-100"
       src={image2}
