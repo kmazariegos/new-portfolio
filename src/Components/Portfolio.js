@@ -1,22 +1,24 @@
 import React from 'react'
-import {Carousel} from 'react-bootstrap'
+import {Carousel, Card} from 'react-bootstrap'
 import image2 from './Images/bizapp.png'
 import image3 from './Images/starwars.png'
 import image4 from './Images/imagess.png'
 import image5 from './Images/flashcards.png'
+import image6 from './Images/ait.png'
 import './Portfolio.css'
 
 
 
 
 export const Portfolio = () => (
+<Card.Body>
 <Carousel>
 <Carousel.Item interval={3000}>
-    <a href ='https://pensive-edison-7e6169.netlify.app/'>
+    <a href ='https://pensive-edison-7e6169.netlify.app/' target="_blank">
     <img
       className="d-block w-100"
       src={image5}
-      alt="THIS IS MY PROJECT"
+      alt="Flashcards project"
     />
     </a>
     <Carousel.Caption>
@@ -24,11 +26,11 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://github.com/kmazariegos/simply-biz'>
+    <a href ='https://github.com/kmazariegos/simply-biz' target="_blank">
     <img
       className="d-block w-100"
       src={image2}
-      alt="THIS IS MY PRJECT"
+      alt="SimplyBiz"
     />
     </a>
     <Carousel.Caption>
@@ -36,11 +38,11 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://react-starwarsly-app.netlify.app/'>
+    <a href ='https://react-starwarsly-app.netlify.app/' target="_blank">
     <img
       className="d-block w-100"
       src={image3}
-      alt="THIS IS MY PRJECT"
+      alt="Star wars"
     />
     </a>
     <Carousel.Caption>
@@ -49,7 +51,7 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://infallible-wilson-468d6d.netlify.app/'>
+    <a href ='https://infallible-wilson-468d6d.netlify.app/' target="_blank">
     <img
       className="d-block w-100"
       src={image4}
@@ -61,5 +63,19 @@ export const Portfolio = () => (
       <p>React Application</p>
     </Carousel.Caption>
   </Carousel.Item>
+  <Carousel.Item interval={3000}>
+    <a href ='https://autoimmunitea.com/' target="_blank">
+    <img
+      className="d-block w-100"
+      src={image6}
+      alt="AutoimmuniTea"
+    />
+    </a>
+    <Carousel.Caption>
+      <h3>E-commerce Business</h3>
+      <p>Founder of AutoimmuniTea: Find us at Erewhon & Amazon</p>
+    </Carousel.Caption>
+  </Carousel.Item>
 </Carousel>
+</Card.Body>
 )

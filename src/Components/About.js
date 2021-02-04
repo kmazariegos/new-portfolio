@@ -2,7 +2,7 @@ import React from 'react'
 import {Card, Image} from 'react-bootstrap'
 import styled from 'styled-components';
 import './About.css'
-import springboard from './Images/springboard.png'
+import springboard from './Images/springboard.png' 
 import auto from './Images/auto.png'
 
 const ContainerDiv = styled.div`
@@ -22,6 +22,9 @@ const ContainerDiv = styled.div`
   @media screen and (max-width: 991px) {
     padding-right: 30px;
     padding-left: 30px;
+    width: 100%;
+		max-width: 992px;
+    margin-bottom: 0;
   } 
 `
 const CardTemplate = styled.div`
@@ -32,7 +35,7 @@ const CardTemplate = styled.div`
 `
 
 export const About = () => ( 
-<ContainerDiv>
+<ContainerDiv className='about-wrapper'>
 <CardTemplate>
     <Card.Body className="card-body">
       <Card.Title  className="Main-title">About</Card.Title>
@@ -47,9 +50,11 @@ export const About = () => (
       </Card.Text>
     </Card.Body>
     <Card.Body className="card-image">
-      <a href="https://www.springboard.com/courses/software-engineering-career-track/"><Image alt="springboard" src={springboard} rounded  className='image'/></a>
-      <a href="https://autoimmunitea.com/"><Image alt="autoimmunitea" src={auto} rounded className='image'/></a>
+      <a href="https://www.springboard.com/courses/software-engineering-career-track/" target="_blank"><Image alt="springboard" src={springboard} rounded  className='image'/></a>
+      <a href="https://autoimmunitea.com/" target="_blank"><Image alt="autoimmunitea" src={auto} rounded className='image'/></a>
     </Card.Body>  
   </CardTemplate>
   </ContainerDiv>
 )
+
+

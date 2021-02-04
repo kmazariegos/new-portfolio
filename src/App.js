@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react' 
 import './App.css';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
-import {Home} from './Components/Home'
+import Home from './Components/Home'
 import {Resume} from './Components/Resume'
 import {About} from './Components/About'
 import {Portfolio} from './Components/Portfolio'
@@ -9,10 +9,10 @@ import {NoMatch} from './Components/NoMatch'
 import {Layout} from './Layout'
 // import {Navigation} from './Components/Navigation'
 import {Footer} from './Components/Footer'
-import logo from './Components/Images/logo.png'
+import logo from './Components/Images/logo.png' 
 
 
-function App() {
+function App() { 
   return (
     <React.Fragment>
       <Layout className='cover'>

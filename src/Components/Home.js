@@ -1,8 +1,9 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'; 
 import {Portfolio} from './Portfolio'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { FiMail } from 'react-icons/fi'
+import {Card, Image} from 'react-bootstrap'
+import { FiMail } from 'react-icons/fi' 
 import image from './Images/image.png'
 import './Home.css'
 
@@ -77,8 +78,10 @@ const Icons = styled.h2`
 
 
 
-export const Home = (props) => (  
-    <ContainerDiv>
+function Home() { 
+
+  return(
+    <ContainerDiv className='home-wrapper'>
         <InfoRow>
             <InfoColumn>
                 <TextWrapper>
@@ -86,13 +89,13 @@ export const Home = (props) => (
                     <Heading>KARLA MAZARIEGOS</Heading>
                     <Subtitle>Fullstack Web Developer</Subtitle>
                     <Icons>
-                    <a href="https://github.com/kmazariegos">
+                    <a href="https://github.com/kmazariegos" target="_blank">
                     <FaGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
                     <FaLinkedin/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
                     <FiMail/>
                     </a>
                     </Icons>
@@ -103,9 +106,6 @@ export const Home = (props) => (
                     Valuable in a variety of industries and fast-paced environments.</TopLine>
                     <TopLine>Grace Hopper 2020 Software Engineering Scholar – Virtual (2020)</TopLine>
                     <br></br> 
-                    <br></br>
-                    <br></br>
-                    <Portfolio className="portfolio"></Portfolio>
                     <br></br>
                     <br></br>
                     <Subtitle>Tech Skills</Subtitle>
@@ -119,8 +119,14 @@ export const Home = (props) => (
                     Entrepreneurship | E-commerce | Brand Development | Operations Management | Strategic Planning | Supply Chain Management | Data Analysis | Online Marketing | B2B Marketing | Customer Acquisition | Account Management
                     </TopLine>
                     <br></br>
+                    <Card.Body>
+                    <Portfolio className="portfolio"></Portfolio>
+                    </Card.Body>
                 </TextWrapper>
             </InfoColumn>
         </InfoRow>
     </ContainerDiv>
-)
+  )
+}
+
+export default Home;

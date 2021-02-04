@@ -1,9 +1,9 @@
 
-.App-logo {
+.App-logo {  
   height: 15vmin;
   pointer-events: none;
   margin-top: 10px; 
-  /* float: left; */
+  /* float: left; */ 
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -50,7 +50,17 @@
   /* margin-left: 100px; */
   float: right;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 17px;
+  /* line-height: 30px; */
+}
+
+@media (max-width:991px) {
+  .nav{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+		max-width: 992px;
+  }
 }
 
 

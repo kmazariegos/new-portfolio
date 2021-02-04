@@ -14,10 +14,10 @@ const Icons = styled.h2`
   margin-bottom: 35px;
   font-size: 25px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')}; 
 `;
 
-export function Footer() {
+export function Footer() { 
 
     return(
         <footer className="mt-5">
@@ -28,13 +28,13 @@ export function Footer() {
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
                     <Icons>
-                    <a href="https://github.com/kmazariegos">
+                    <a href="https://github.com/kmazariegos" target="_blank">
                     <FaGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
                     <FaLinkedin/>
                     </a>
-                    <a href="https://www.linkedin.com/in/karla-mazariegos/">
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="_blank">
                     <FiMail/>
                     </a>
                     </Icons>

@@ -18,8 +18,11 @@ const ContainerDiv = styled.div`
   background-color: none;
 
   @media screen and (max-width: 991px) {
-    padding-right: 30px;
-    padding-left: 30px;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    width: 100%;
+		max-width: 992px;
+    margin-bottom: 0;
   } 
 `
 const CardTemplate = styled.div`
@@ -31,7 +34,7 @@ const CardTemplate = styled.div`
 
 export const Resume = () => (
 <>
-<ContainerDiv>
+<ContainerDiv className='resume-wrapper'>
 <CardTemplate>
     <Card.Body>
       <Card.Title className="Main-title">Karla Mazariegos</Card.Title>

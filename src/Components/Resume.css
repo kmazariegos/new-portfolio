@@ -1,3 +1,11 @@
+@media (max-width:991px) {
+    .resume-wrapper{
+        width: 100%;
+        max-width: 992px;
+        margin-bottom: 0
+    }
+}
+
 .Main-title{
     margin: 0, auto;
     padding-top: 1em;

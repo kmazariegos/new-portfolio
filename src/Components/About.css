@@ -26,3 +26,13 @@
     display: block;
     justify-content: center;
 }
+
+@media (max-width:991px) {
+    .card-body .card-image{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 500px;
+        margin-bottom: 0
+    }
+}
