@@ -14,7 +14,7 @@ export const Portfolio = () => (
 <Card.Body>
 <Carousel>
 <Carousel.Item interval={3000}>
-    <a href ='https://pensive-edison-7e6169.netlify.app/' target="_blank">
+    <a href ='https://pensive-edison-7e6169.netlify.app/' target="blank">
     <img
       className="d-block w-100"
       src={image5}
@@ -26,7 +26,7 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://suspicious-easley-15f710.netlify.app/' target="_blank">
+    <a href ='https://suspicious-easley-15f710.netlify.app/' target="blank">
     <img
       className="d-block w-100"
       src={image2}
@@ -38,7 +38,7 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://react-starwarsly-app.netlify.app/' target="_blank">
+    <a href ='https://react-starwarsly-app.netlify.app/' target="blank">
     <img
       className="d-block w-100"
       src={image3}
@@ -51,7 +51,7 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://infallible-wilson-468d6d.netlify.app/' target="_blank">
+    <a href ='https://infallible-wilson-468d6d.netlify.app/' target="blank">
     <img
       className="d-block w-100"
       src={image4}
@@ -64,7 +64,7 @@ export const Portfolio = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={3000}>
-    <a href ='https://autoimmunitea.com/' target="_blank">
+    <a href ='https://autoimmunitea.com/' target="blank">
     <img
       className="d-block w-100"
       src={image6}
